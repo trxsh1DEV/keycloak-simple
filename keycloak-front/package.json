@@ -1,0 +1,22 @@
+{
+  "name": "vite-project",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@react-keycloak/web": "^3.4.0",
+    "axios": "^1.6.7",
+    "keycloak-js": "^23.0.6",
+    "preact": "^10.19.3",
+    "react-router-dom": "^6.22.0"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.8.1",
+    "vite": "^5.1.0"
+  }
+}
